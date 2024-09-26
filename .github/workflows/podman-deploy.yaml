@@ -27,4 +27,4 @@ jobs:
       # Step 4: Deploy to Vercel
       - name: Deploy to Vercel
         run: |
-          vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --confirm
+          vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --name fastapi-podman --confirm
